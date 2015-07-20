@@ -19,6 +19,11 @@
         }
     ],
 
+    "repositories": [
+        {"type": "git", "url": "https://github.com/business-of-fashion/auth0-PHP"},
+        {"packagist": false}
+    ],
+
     "require": {
         "php":                          ">=5.3.3",
         "adoy/oauth2":                  "dev-master",
